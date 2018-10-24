@@ -1,0 +1,42 @@
+$z-indexes: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$z-indexes: map-merge(
+  (
+    "0":      0,
+    "10":     10,
+    "20":     20,
+    "30":     30,
+    "40":     40,
+    "50":     50,
+    "auto":   auto,
+  ),
+  $z-indexes
+);
+
+
+
+$overflows: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$overflows: map-merge(
+  (
+    "auto": (
+      "property":'overflow;',
+      "value": 'auto',
+    ),
+
+  ),
+  $overflows
+);
+
+/*
+"hidden":     'overflow:hidden',
+    "visible":    'overflow:visible',
+    "scroll":     'overflow:scroll',
+    "x-auto":     'overflow-x:auto',
+    "y-auto":     'overflow-y:auto',
+    "x-hidden":   'overflow-x:hidden',
+    "y-hidden":   'overflow-y:hidden',
+    "x-visible":  'overflow-x:visible',
+    "y-visible":  'overflow-y:visible',
+    "x-scroll":   'overflow-x:scroll',
+    "y-scroll":   'overflow-y:scroll',*/
