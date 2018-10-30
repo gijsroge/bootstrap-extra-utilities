@@ -6,7 +6,7 @@ This library utilizes the bootstrap variables so the utilities are generated wit
 ## Installation
 Install package `yarn add bootstrap-extra-utilities` or `npm i --save bootstrap-extra-utilities`
 
-Include it right after your Bootstrap import so it reads your custom variables @import "~bootstrap-extra-utilities/src/bootstrap-utilities"
+Include it right after your Bootstrap import so it reads your custom variables `@import "~bootstrap-extra-utilities/src/bootstrap-utilities"`
 
 ## Included utilities (w.i.p.)
 * overflow (auto|visible|scroll|auto-(x&y)|hidden-(x&y)|visible-(x&y)|scroll-(x&y))
