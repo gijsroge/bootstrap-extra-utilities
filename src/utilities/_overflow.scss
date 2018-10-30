@@ -2,9 +2,8 @@
   @include media-breakpoint-up($breakpoint) {
     @each $overflow, $values in $overflows {
       $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
-      @debug(map-get($values, 'property'));
       .overflow#{$infix}-#{$overflow} {
-        #{map-get($values, 'property')}: test;
+        #{map-get($values, 'property')}: map-get($values, 'value');
       }
     }
   }

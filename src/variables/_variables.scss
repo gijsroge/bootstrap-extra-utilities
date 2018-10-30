@@ -13,30 +13,55 @@ $z-indexes: map-merge(
   $z-indexes
 );
 
-
-
 $overflows: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
 $overflows: map-merge(
   (
     "auto": (
-      "property":'overflow;',
+      "property":'overflow',
       "value": 'auto',
     ),
-
+    "visible": (
+      "property":'overflow',
+      "value": 'visible',
+    ),
+    "scroll": (
+      "property":'overflow',
+      "value": 'scroll',
+    ),
+    "x-auto": (
+      "property":'overflow-x',
+      "value": 'auto',
+    ),
+    "y-auto": (
+      "property":'overflow-y',
+      "value": 'auto',
+    ),
+    "x-hidden": (
+      "property":'overflow-x',
+      "value": 'hidden',
+    ),
+    "y-hidden": (
+      "property":'overflow-y',
+      "value": 'hidden',
+    ),
+    "x-visible": (
+      "property":'overflow-x',
+      "value": 'visible',
+    ),
+    "y-visible": (
+      "property":'overflow-y',
+      "value": 'visible',
+    ),
+    "x-scroll": (
+      "property":'overflow-x',
+      "value": 'scroll',
+    ),
+    "y-scroll": (
+      "property":'overflow-y',
+      "value": 'scroll',
+    ),
   ),
   $overflows
 );
 
-/*
-"hidden":     'overflow:hidden',
-    "visible":    'overflow:visible',
-    "scroll":     'overflow:scroll',
-    "x-auto":     'overflow-x:auto',
-    "y-auto":     'overflow-y:auto',
-    "x-hidden":   'overflow-x:hidden',
-    "y-hidden":   'overflow-y:hidden',
-    "x-visible":  'overflow-x:visible',
-    "y-visible":  'overflow-y:visible',
-    "x-scroll":   'overflow-x:scroll',
-    "y-scroll":   'overflow-y:scroll',*/

@@ -1,0 +1,21 @@
+{
+  "name": "bootstrap-extra-utilities",
+  "version": "4.0.0",
+  "description": "A set of missing utilities for Bootstrap 4",
+  "main": "src/bootstrap-utilities.scss",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gijsroge/bootstrap-utilities.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "utilities",
+    "utils"
+  ],
+  "author": "Gijs Rogé",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gijsroge/bootstrap-utilities/issues"
+  },
+  "homepage": "https://github.com/gijsroge/bootstrap-utilities#readme"
+}
