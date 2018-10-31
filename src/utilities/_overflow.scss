@@ -3,7 +3,7 @@
     @each $overflow, $values in $overflows {
       $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
       .overflow#{$infix}-#{$overflow} {
-        #{map-get($values, 'property')}: map-get($values, 'value');
+        #{map-get($values, 'property')}: unquote(map-get($values, 'value'));
       }
     }
   }
