@@ -8,6 +8,8 @@ Install package `yarn add bootstrap-extra-utilities` or `npm i --save bootstrap-
 
 Include it right after your Bootstrap import so it reads your custom variables `@import "~bootstrap-extra-utilities/src/bootstrap-extra-utilities"`
 
+If you rather use a prebuild version with the default Bootstrap theming/configuration you can include this from `dist/bootstrap-extra-utilities.css`
+
 ## Included utilities (w.i.p.)
 * overflow (auto|visible|scroll|auto-(x&y)|hidden-(x&y)|visible-(x&y)|scroll-(x&y))
 * z-index (0,10,20,30,40,50,auto)
