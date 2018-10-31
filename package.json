@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-extra-utilities",
-  "version": "4.0.2",
+  "version": "4.0.5",
   "description": "A set of missing utilities for Bootstrap 4",
   "main": "src/bootstrap-extra-utilities.scss",
   "repository": {
