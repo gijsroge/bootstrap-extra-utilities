@@ -4,5 +4,6 @@
     .radius#{$infix}	    {border-radius: $border-radius;}
     .radius#{$infix}-small	{border-radius: $border-radius-sm;}
     .radius#{$infix}-large	{border-radius: $border-radius-lg;}
+    .radius#{$infix}-none	{border-radius: 0;}
   }
 }

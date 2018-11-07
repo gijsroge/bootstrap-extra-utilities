@@ -2,7 +2,7 @@
   @include media-breakpoint-up($breakpoint) {
     @each $z-index, $value in $z-indexes {
       $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
-      .z-index#{$infix}-#{$z-index} { z-index: $value !important; }
+      .z-index#{$infix}-#{$z-index} { z-index: $value; }
     }
   }
 }
