@@ -13,14 +13,10 @@ $z-indexes: map-merge(
   $z-indexes
 );
 
-$overflows: () !default;
+$extra-overflows: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
-$overflows: map-merge(
+$extra-overflows: map-merge(
   (
-    "auto": (
-      "property":'overflow',
-      "value": 'auto',
-    ),
     "visible": (
       "property":'overflow',
       "value": 'visible',
@@ -62,6 +58,6 @@ $overflows: map-merge(
       "value": 'scroll',
     ),
   ),
-  $overflows
+  $extra-overflows
 );
 
