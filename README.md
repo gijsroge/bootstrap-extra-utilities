@@ -11,8 +11,12 @@ Include it right after your Bootstrap import so it reads your custom variables `
 If you rather use a prebuild version with the default Bootstrap theming/configuration you can include this from `dist/bootstrap-extra-utilities.css`
 
 ## Included utilities (w.i.p.)
-* overflow (auto|visible|scroll|auto-(x&y)|hidden-(x&y)|visible-(x&y)|scroll-(x&y))
-* z-index (0,10,20,30,40,50,auto)
+* background colors
+* list
+* overflow
+* position
+* border radius
+* z-index
 
 ## Do you need Bootstrap?
 If you are looking to solely use utilities to build your interfaces I highly recommend you to use [tailwindcss](https://tailwindcss.com/docs/) instead.
