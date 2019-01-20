@@ -26,9 +26,11 @@
     "gulp-clean-css": "^3.10.0",
     "gulp-group-css-media-queries": "^1.2.2",
     "gulp-sass": "^4.0.2",
+    "gulp-watch": "^5.0.1",
     "node-sass": "^4.9.4"
   },
   "scripts": {
-    "build": "gulp build --gulpfile build/build.js"
+    "build": "gulp build --gulpfile build/build.js",
+    "watch": "gulp watch --gulpfile build/build.js"
   }
 }
