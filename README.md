@@ -17,6 +17,7 @@ If you rather use a prebuild version with the default Bootstrap theming/configur
 * position
 * border radius
 * z-index
+* object-fit
 
 ## Do you need Bootstrap?
 If you are looking to solely use utilities to build your interfaces I highly recommend you to use [tailwindcss](https://tailwindcss.com/docs/) instead.
